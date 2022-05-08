@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Animal Sound-Recognition App</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&family=Special+Elite&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header_div text-center col-xs-12">
+      <h1>Animal Sound-Recognition App</h1>
+      <br><br>
+      <p><b>Play sound of the following animals: Cat, Cow, Dog and Goat </b></p>
+      <br>
+      <hr>
+    </div>
+    
+    <div class="main_div">
+      <center>
+        <button class="btn btn-warning" onclick="startClassification()"> START </button>
+        <br><br>
+        <p style="font-size: 20px ;"> I can hear: </p>
+        <br>
+        <p style="font-size: 20px ;"> Confidence: </p>
+        <br><br>
+        <img id="ani_img" width="250" height="300">
+
+      </center>
+      <div class="copy_right_footer">
+        Developed By: RAUNAK BANJARI
+      </div>
+    </div>
+  </body>
+</html>
+
